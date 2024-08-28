@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos - Lanchonete</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Minha Lanchonete</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Destaque -->
+    <section id="inicio" class="hero">
+        <h2>Bem-vindo à Nossa Lanchonete!</h2>
+        <p>Delícias feitas com amor, direto para você.</p>
+        <a href="#cardapio" class="cta-button">Veja nosso cardápio</a>
+    </section>
+
+    <!-- Catálogo de Produtos -->
+    <section id="cardapio" class="catalogo">
+        <h2>Nosso Cardápio</h2>
+        <div class="categoria">
+            <h3>Hambúrgueres</h3>
+            <div class="item">
+                <img src="./Imagens/images.jpeg" alt="Hambúrguer">
+                <div class="descricao">
+                    <h4>Cheeseburger</h4>
+                    <p>Pão, carne, queijo, alface, tomate.</p>
+                    <span class="preco">R$ 15,00</span>
+                </div>
+            </div>
+            <!-- Mais itens podem ser adicionados aqui -->
+        </div>
+
+        <div class="categoria">
+            <h3>Bebidas</h3>
+            <div class="item">
+                <img src="./Imagens/coca-zero.png" alt="Refrigerante">
+                <div class="descricao">
+                    <h4>Refrigerante</h4>
+                    <p>Lata 350ml.</p>
+                    <span class="preco">R$ 5,00</span>
+                </div>
+            </div>
+            <!-- Mais itens podem ser adicionados aqui -->
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>Endereço: Rua Exemplo, 123 - Cidade</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <form>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu e-mail">
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Minha Lanchonete</p>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
